@@ -195,7 +195,7 @@ const Menu = [
                   <i className="icon-link work__button-icon"></i>
                 </a> */}
               </div>,
-    category: "UX/UI"
+    category: "Web"
   },
   {
     id: 9,

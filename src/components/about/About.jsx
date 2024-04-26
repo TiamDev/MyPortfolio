@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import AboutPic from "../../assets/juicy-woman-with-laptop-and-new-business-idea (1).gif";
 const About=()=>{
-  let CVFileURL = "http://localhost:3000/Fatima Bakran.pdf";function DownloadCv(CVFileURL) {
+  let CVFileURL = "https://fatimabakran.netlify.app/Fatima Bakran.pdf";function DownloadCv(CVFileURL) {
     const fileName = CVFileURL.split("/").pop();
     const aTag = document.createElement("a");
     aTag.href = CVFileURL;
