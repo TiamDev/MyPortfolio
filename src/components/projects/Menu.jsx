@@ -117,7 +117,7 @@ const Menu = [
     id: 5,
     image: Work5,
     pic:Pic5,
-    title: "Online Grades Management System (OGMS)",
+    title: "OGMS",
     desc:<div className="tools">
       <i class="fa-brands fa-html5"></i>
       <i class="fa-brands fa-css3-alt"></i>

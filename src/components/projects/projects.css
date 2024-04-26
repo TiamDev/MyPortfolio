@@ -100,16 +100,9 @@
   opacity: 0;
 }
 .work__button-github{
-  height: 40px;
-  width: 40px;
   left:1.5rem;
-  cursor: pointer;
-  color: black;
-  border-radius:50%;
-  text-align: center;
-  line-height: 42px;
-  transition: .3s;
-  opacity: 0;
+  color: #fff;
+
 }
 .work__card:hover .work__button{
   opacity: 1;
@@ -176,10 +169,21 @@
 
   }
   .tools i{
-    font-size:24px;
+    font-size:17px;
   }
   .work__desc{
-    font-size: var(--smaller-font-size);
-    top:4.4rem;
+    font-size: 17px;
+    top:3.6rem;
+  }
+  .work__button{
+    bottom: 0.5rem;
+    height: 30px;
+    width: 30px;
+    line-height: 32px;
+    left:4.5rem;
+  }
+  .work__button-github{
+    left:1.5rem;
+    color: #fff;
   }
 }
