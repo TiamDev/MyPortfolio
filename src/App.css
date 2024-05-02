@@ -1,8 +1,15 @@
 .main{
   margin-left: 110px;
 }
+.main-rtl{
+  margin-right: 110px;
+}
 @media screen and (max-width:1024px){
   .main{
     margin-left: 0;
   }
+  .main-rtl{
+    margin-right: 0px;
+  }
 }
+

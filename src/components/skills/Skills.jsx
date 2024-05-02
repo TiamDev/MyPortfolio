@@ -10,6 +10,7 @@ import MySql from "../../assets/skills/mysql.svg";
 import Figma from "../../assets/skills/figma.svg";
 import Git from "../../assets/skills/git.svg";
 import Bootstrap from "../../assets/skills/Bootstrap.svg";
+import { t } from "i18next";
 
 const data=[
   {id:1,image:HTML,title:"HTML"},
@@ -29,7 +30,7 @@ const data=[
 const Skills=()=>{
   return(
     <section className="skills container section" id="skills">
-      <h2 className="section__title">My Skills</h2>
+      <h2 className="section__title">{t("My Skills")}</h2>
       <div className="skills__container grid">
         {data.map(({id,image,title})=>{
           return(
