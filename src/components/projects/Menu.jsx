@@ -290,5 +290,7 @@ const Menu = [
     ),
     category: "Web",
   },
-];
+].sort((a, b) => {
+  return b.id - a.id;
+});
 export default Menu;

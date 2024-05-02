@@ -5,7 +5,7 @@ import Cookies from "js-cookie";
 
 const DarkMode = (props) => {
   const [theme, setTheme] = useState(props.theme);
-  const mode = Cookies.get("mode") || "dark";
+  const mode = Cookies.get("mode") || "light";
   const setDarkMode = () => {
     document.querySelector("body").setAttribute("data-theme", "dark");
     Cookies.set("mode", "dark");
