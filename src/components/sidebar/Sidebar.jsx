@@ -7,10 +7,10 @@ import i18next from "i18next";
 import Cookies from "js-cookie";
 const Sidebar = () => {
   const [toggle, showMenu] = useState(false);
-  const mode = Cookies.get("mode") || "light";
+  const mode = Cookies.get("mode") || "dark";
   const [theme, setTheme] = useState(mode);
-  let changeTheme = theme === "dark" ? "#fff" : "#000";
-  const lng = Cookies.get("i18next") || "en";
+  let changeTheme = theme === "light" ? "#000" : "#fff";
+  const lng = Cookies.get("i18next") || "ar";
   return (
     <>
       <aside

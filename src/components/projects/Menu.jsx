@@ -24,6 +24,10 @@ import Pic8 from "../../assets/projects/screencapture-localhost-3000-2024-05-02-
 
 import Work9 from "../../assets/projects/Cover_99.png";
 import Pic9 from "../../assets/projects/pic9.jpg";
+
+import Work10 from "../../assets/projects/Cover (26).svg";
+import Pic10 from "../../assets/projects/Thumbnail (4).svg";
+
 const Menu = [
   {
     id: 1,
@@ -114,7 +118,6 @@ const Menu = [
     ),
     category: "Web",
   },
-
   {
     id: 4,
     image: Work4,
@@ -147,7 +150,6 @@ const Menu = [
     ),
     category: "Web",
   },
-
   {
     id: 5,
     image: Work3,
@@ -272,8 +274,6 @@ const Menu = [
     title: "My Portfolio",
     desc: (
       <div className="tools">
-        <i class="fa-brands fa-html5"></i>
-        <i class="fa-brands fa-css3-alt"></i>
         <i class="fa-brands fa-react"></i>
       </div>
     ),
@@ -285,6 +285,36 @@ const Menu = [
           title="View Code"
         >
           <i className="fa-brands fa-github work__button-icon"></i>
+        </a>
+      </div>
+    ),
+    category: "Web",
+  },
+  {
+    id: 10,
+    image: Work10,
+    pic: Pic10,
+    title: "Taskaty",
+    desc: (
+      <div className="tools">
+        <i class="fa-brands fa-react"></i>
+      </div>
+    ),
+    button: (
+      <div>
+        <a
+          href="https://github.com/TiamDev/taskaty"
+          className="work__button work__button-github"
+          title="View Code"
+        >
+          <i className="fa-brands fa-github work__button-icon"></i>
+        </a>
+        <a
+          href="https://mytaskaty.netlify.app/"
+          className="work__button"
+          title="View Website"
+        >
+          <i className="icon-link work__button-icon"></i>
         </a>
       </div>
     ),
