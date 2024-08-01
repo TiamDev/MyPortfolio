@@ -28,7 +28,7 @@ import Pic9 from "../../assets/projects/pic9.jpg";
 import Work11 from "../../assets/projects/Cover (26).svg";
 import Pic11 from "../../assets/projects/Thumbnail (4).svg";
 import Work10 from "../../assets/projects/Cover (27).svg";
-import Pic10 from "../../assets/projects/bandicam 2024-07-26 22-15-35-508.jpg";
+import Pic10 from "../../assets/projects/Thumbnail (7).svg";
 
 const Menu = [
   {
@@ -305,6 +305,7 @@ const Menu = [
         <i class="fa-brands fa-bootstrap"></i>
         <i class="fa-brands fa-laravel"></i>
         <i class="fa-solid fa-database" title="MySQL"></i>
+        <span style={{ paddingLeft: "10px", fontSize: "20px" }}>API</span>
       </div>
     ),
 
