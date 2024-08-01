@@ -5,7 +5,7 @@ import { t } from "i18next";
 import Cookies from "js-cookie";
 
 const About = () => {
-  let CVFileURL = "https://fatimabakran.netlify.app/Fatima Bakran.pdf";
+  let CVFileURL = "https://fatimabakran.netlify.app/Fatima Bakran CV.pdf";
   function DownloadCv(CVFileURL) {
     const fileName = CVFileURL.split("/").pop();
     const aTag = document.createElement("a");
