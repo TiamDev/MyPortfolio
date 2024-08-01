@@ -25,8 +25,10 @@ import Pic8 from "../../assets/projects/screencapture-localhost-3000-2024-05-02-
 import Work9 from "../../assets/projects/Cover_99.png";
 import Pic9 from "../../assets/projects/pic9.jpg";
 
-import Work10 from "../../assets/projects/Cover (26).svg";
-import Pic10 from "../../assets/projects/Thumbnail (4).svg";
+import Work11 from "../../assets/projects/Cover (26).svg";
+import Pic11 from "../../assets/projects/Thumbnail (4).svg";
+import Work10 from "../../assets/projects/Cover (27).svg";
+import Pic10 from "../../assets/projects/bandicam 2024-07-26 22-15-35-508.jpg";
 
 const Menu = [
   {
@@ -248,7 +250,7 @@ const Menu = [
         <i class="fa-brands fa-square-js"></i>
         <i class="fa-brands fa-bootstrap"></i>
         <i class="fa-brands fa-laravel"></i>
-        <i class="fa-solid fa-database" title="myDB"></i>
+        <i class="fa-solid fa-database" title="MySQL"></i>
       </div>
     ),
     button: (
@@ -294,6 +296,24 @@ const Menu = [
     id: 10,
     image: Work10,
     pic: Pic10,
+    title: "FITBODY",
+    desc: (
+      <div className="tools">
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-square-js"></i>
+        <i class="fa-brands fa-bootstrap"></i>
+        <i class="fa-brands fa-laravel"></i>
+        <i class="fa-solid fa-database" title="MySQL"></i>
+      </div>
+    ),
+
+    category: "Web",
+  },
+  {
+    id: 11,
+    image: Work11,
+    pic: Pic11,
     title: "Taskaty",
     desc: (
       <div className="tools">
